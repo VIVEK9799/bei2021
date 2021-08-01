@@ -2100,6 +2100,9 @@ section {
     .bosslogo {
     color: black !important;
     display: none;
+}
+h1.logo.me-auto {
+    font-size: 1.7rem !important;
 }}
 
 .bosslogo {
