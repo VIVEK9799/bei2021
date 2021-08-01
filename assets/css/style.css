@@ -2107,6 +2107,9 @@ h1.logo.me-auto {
 .mt-4 {
     margin-top: 1.5rem!important;
     margin-bottom: 10px !important;
+}
+.mapgoogle {
+    max-width: 345px;
 }}
 
 .bosslogo {
