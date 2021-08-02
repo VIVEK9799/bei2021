@@ -276,18 +276,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 24px;
 }
 
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
+  top: 0px;
+    right: 80px;
+    bottom: 0;
+    left: 0px;
+    padding: 54px 15px;
+	padding-top: 0px !important;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -2109,9 +2110,22 @@ h1.logo.me-auto {
     margin-bottom: 10px !important;
 }
 .mapgoogle {
-    max-width: 345px;
+    max-width: 342px;
+}
+.mobmenulogo {
+    display: block !important;
+	margin-bottom: 10px;
+}
+.navbar-mobile a {
+    font-size: 18px;
 }}
 
 .bosslogo {
     color: black !important;
 }
+
+
+@media (min-width: 768px) {
+	.mobmenulogo {
+    display: none !important;
+}}
