@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 40px;
+  top: 28px;
   right: 24px;
   font-size: 40px;
 }
